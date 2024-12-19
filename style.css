@@ -1,0 +1,22 @@
+/* Psudo element (::)  */
+
+h1::first-letter {
+  font-size: 50px;
+  color: burlywood;
+}
+
+p::after {
+  content: "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  background-color: #111;
+  width: 100px;
+  color: yellowgreen;
+  height: 100px;
+}
+
+p::before {
+  content: "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  background-color: #111;
+  width: 100px;
+  color: yellowgreen;
+  height: 100px;
+}
